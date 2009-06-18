@@ -25,7 +25,7 @@ production:
   adapter: mysql
   encoding: utf8
   username: user58
-  password: oruv6pqq"
+  password: oruv6pqq
   database: wagn_invisible_ch_prod
   host: 77.95.121.153
 EOF
