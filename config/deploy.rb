@@ -13,7 +13,7 @@ set :use_sudo, false
 set :keep_releases, 4
 
 set :scm, :git
-set :branch, "master"
+set :branch, "devel"
 set :repository, "git@github.com:inv/wagn.git"
 set :deploy_via, :remote_cache
 
