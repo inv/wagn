@@ -46,8 +46,9 @@ Rails::Initializer.run do |config|
   
   #config.gem "rspec-rails", :lib => "spec"          
   config.gem "uuid"
-  config.gem "json"
-
+  # config.gem "json"
+  config.gem 'macaddr'
+  
   require 'yaml'   
   require 'erb'     
   database_configuration_file = 'config/database.yml'
