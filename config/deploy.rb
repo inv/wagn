@@ -28,6 +28,8 @@ production:
   password: oruv6pqq
   database: wagn_invisible_ch_prod
   host: 77.95.121.153
+  session_key: tbtn_production
+  secret: iwereRfasdf9313FASDHAHSO3fa3fi
 EOF
 
     put db_config, "#{release_path}/config/database.yml"   
